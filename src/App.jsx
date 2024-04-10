@@ -1,10 +1,12 @@
+import Header from "@/components/header"
+import CalcuteForm from "./components/calcute-form"
+
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Header />
+      <CalcuteForm />
     </>
   )
 }
