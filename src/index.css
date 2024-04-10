@@ -15,6 +15,10 @@
   --color-background: #09090b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--color-background);
   color: var(--color-primary);

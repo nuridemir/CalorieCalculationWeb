@@ -3,7 +3,7 @@ import Faq from "@/components/faq"
 const Faqs = () => {
     return (
         <div id="faqs" className="max-w-5xl mx-auto my-24">
-            <h2 className="text-4xl text-secondary">S.S.S </h2> <small>(Sıkça sorulan sorular)</small>
+            <h2 className="text-4xl text-secondary" title="Sıkça sorulan sorular">S.S.S </h2> <small title="Sıkça sorulan sorular">(Sıkça sorulan sorular)</small>
             <div className="space-y-6 text-justify mt-4">
                 <Faq title="Doğruluk payı 100%'mü?" desc="Hayır. Bu sonuç kişinin günlük aktivitesi, yaşı gibi etkenler sebebiyle farklılık gösterebilir." />
                 <Faq title="En verimli sonucu nasıl alabilirim?" desc="Her sabah lavabo ihtiyacından sonra tartılın. Bu işlemi 7 gün boyunda tekrar edip kilonuzu not alın. 7 gün sonunda hedefinize uygun kalori eklemesi/çıkarması yapabilirsiniz." />

@@ -1,6 +1,7 @@
 import Header from "@/components/header"
 import CalcuteForm from "./components/calcute-form"
 import Faqs from "@/components/faqs"
+import Footer from "@/components/footer"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <CalcuteForm />
       <Faqs />
+      <Footer />
     </main>
   )
 }
