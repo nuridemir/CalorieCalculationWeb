@@ -2,6 +2,7 @@ import { useState } from "react"
 import { caloriesCalculator } from "@/uitils"
 import Card from "@/components/card"
 import Loading from "@/components/loading"
+import Container from "@/components/container"
 
 const CalcuteForm = () => {
 
@@ -38,13 +39,13 @@ const CalcuteForm = () => {
 
 
     return (
-        <div className="max-w-5xl mx-auto p-2">
+        <Container>
             <div className="max-w-2xl mx-auto">
                 <p className="text-center text-lg">Mevcut kilonu yazarak, günlük alman gereken <span className="underline decoration-pink-500 text-secondary">Kilo Koruma</span>, <span className="underline decoration-pink-500 text-secondary">Kilo Verme</span>, <span className="underline decoration-pink-500 text-secondary">Kilo Alma</span> kalori ve makro bilgilerini görebilirsin</p>
                 <span className="block text-center mt-2 text-sm">Bu bilgiler <strong className="text-secondary">tahmini bilgilerdir</strong>. Kişiden kişiye farklılık gösterebilir. Lütfen profosyonel destek alınız. Detaylı açıkmalaya <i><a href="#faqs" className="text-blue-500">SSS</a></i> ten erişebilirsin</span>
             </div>
 
-            <div className="mt-12 border border-[#27272a] rounded-md mx-auto p-4 max-w-md py-10">
+            <div className="mt-12 border border-[#27272a] rounded-md mx-auto p-4 max-w-lg py-10">
                 <div>
                     <div>
                         <h3 className="text-lg text-secondary font-medium" title="Kilonuz">Kilonuz</h3>
@@ -64,6 +65,7 @@ const CalcuteForm = () => {
                     </button>
                 </div>
             </div>
+
             {loadingForm && (
                 <div className="flex items-center justify-center mt-12">
                     <Loading />
@@ -82,7 +84,7 @@ const CalcuteForm = () => {
                     </div>
                 )
             }
-        </div>
+        </Container>
     )
 }
 
