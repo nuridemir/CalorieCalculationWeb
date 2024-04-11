@@ -39,10 +39,9 @@ const CalcuteForm = () => {
 
 
     return (
-        <Container>
+        <Container extraClass="min-w-full border-t border-b !py-20">
             <div className="max-w-2xl mx-auto">
-                <p className="text-center text-lg">Mevcut kilonu yazarak, günlük alman gereken <span className="underline decoration-pink-500 text-secondary">Kilo Koruma</span>, <span className="underline decoration-pink-500 text-secondary">Kilo Verme</span>, <span className="underline decoration-pink-500 text-secondary">Kilo Alma</span> kalori ve makro bilgilerini görebilirsin</p>
-                <span className="block text-center mt-2 text-sm">Bu bilgiler <strong className="text-secondary">tahmini bilgilerdir</strong>. Kişiden kişiye farklılık gösterebilir. Lütfen profosyonel destek alınız. Detaylı açıkmalaya <i><a href="#faqs" className="text-blue-500">SSS</a></i> ten erişebilirsin</span>
+                <span className="block text-center mt-2 text-sm">Bu bilgiler <strong className="text-secondary">tahmini bilgilerdir tedavi amaçlı kullanılamaz</strong>, değerler kişiden kişiye farklılık gösterebilir. Tedavi için lütfen profosyonel destek alınız. Detaylı açıkmalaya <i><a href="#faqs" className="text-blue-500">SSS</a></i> ten erişebilirsin</span>
             </div>
 
             <div className="mt-12 border border-[#27272a] rounded-md mx-auto p-4 max-w-lg py-10">
@@ -73,7 +72,7 @@ const CalcuteForm = () => {
             )}
             {
                 showCard && (
-                    <div className="mt-12">
+                    <div className="max-w-5xl mx-auto mt-12">
                         <h2 className="text-2xl text-green-600">Hesaplama başarılı</h2>
                         <h4>Lütfen doğru sonucu alabilmek <i><a href="#faqs" className="text-blue-500">SSS</a></i> kısmını okuyun!</h4>
                         <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-4">

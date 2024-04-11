@@ -8,19 +8,19 @@ const Card = ({ data, title }) => {
                         <td className="pr-2">Protein:</td>
                         <td><strong className="text-secondary">{data.protein}</strong></td>
                         <td className="pl-4 pr-2">Kalori:</td>
-                        <td><strong className="text-secondary">{data.proteinCalories}</strong></td>
+                        <td className="text-end"><strong className="text-secondary">{data.proteinCalories}</strong></td>
                     </tr>
                     <tr>
                         <td className="pr-2">Yağ:</td>
                         <td><strong className="text-secondary">{data.fat}</strong></td>
                         <td className="pl-4 pr-2">Kalori:</td>
-                        <td><strong className="text-secondary">{data.fatCalories}</strong></td>
+                        <td className="text-end"><strong className="text-secondary">{data.fatCalories}</strong></td>
                     </tr>
                     <tr>
                         <td className="pr-2">Karbonhidrat:</td>
                         <td><strong className="text-secondary">{data.carbohydrate}</strong></td>
                         <td className="pl-4 pr-2">Kalori:</td>
-                        <td><strong className="text-secondary">{data.carbohydrateCalories}</strong></td>
+                        <td className="text-end"><strong className="text-secondary">{data.carbohydrateCalories}</strong></td>
                     </tr>
                     <tr>
                         <td colSpan={4} className="h-4"></td>
