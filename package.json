@@ -2,7 +2,7 @@
   "homepage": "https://nuridemir.github.io/CalorieCalculationWeb/",
   "name": "caloriecalculationweb",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
@@ -15,7 +15,8 @@
   "dependencies": {
     "gh-pages": "^6.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
