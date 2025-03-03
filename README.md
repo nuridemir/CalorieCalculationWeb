@@ -8,4 +8,4 @@ Teknoloji: React.js
 
 
 <br />
-Demo: [https://main--symphonious-cannoli-7762bf.netlify.app/](https://nuridemir.github.io/CalorieCalculationWeb/)
+Demo: https://nuridemir.github.io/CalorieCalculationWeb/
