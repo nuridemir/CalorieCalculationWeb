@@ -1,8 +1,11 @@
-# React + Vite
+# Kalori makro hesaplayıcı
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Teknoloji: React.js
+<br />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![CalorieCalculationWeb](https://github.com/user-attachments/assets/632bad92-11a9-4062-9628-0a72a07e8bf4)
+
+
+<br />
+Demo: [https://main--symphonious-cannoli-7762bf.netlify.app/](https://nuridemir.github.io/CalorieCalculationWeb/)
